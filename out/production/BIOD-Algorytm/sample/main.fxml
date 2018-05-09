@@ -31,7 +31,11 @@
            GridPane.rowIndex = "1" GridPane.columnIndex="0"
     />
     <HBox GridPane.rowIndex = "1" GridPane.columnIndex="1">
-        <TextField fx:id="outputPath" />
+        <TextField fx:id="outputPath" >
+        <tooltip>
+            <Tooltip text="Wybierz plik tekstowy gdzie zapisany zostanie wynik"/>
+        </tooltip>
+        </TextField>
     </HBox>
     <Label text="Klucz"
            GridPane.rowIndex = "2" GridPane.columnIndex="0"
