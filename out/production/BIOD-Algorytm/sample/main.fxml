@@ -37,7 +37,7 @@
         </tooltip>
         </TextField>
     </HBox>
-    <Label text="Klucz"
+    <Label text="Hasło"
            GridPane.rowIndex = "2" GridPane.columnIndex="0"
     />
     <PasswordField fx:id="secret"

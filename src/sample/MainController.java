@@ -50,6 +50,9 @@ public class MainController {
             String smode = mode == 1 ? "odszyfrowany" : "zaszyfrowany";
             alert.setHeaderText("Plik został pomyślnie " + smode);
             alert.show();
+            secret.setText("");
+            inputPath.setText("");
+            outputPath.setText("");
         } catch(Exception e){
             System.out.println(e);
         }
@@ -159,7 +162,7 @@ public class MainController {
                 }
             }
         }
-        secret.setText("");
+
         return rr;
     }
 }
